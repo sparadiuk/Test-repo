@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2a45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2a45.dir/build.make CMakeFiles/cmTC_f2a45.dir/build
+make[1]: Entering directory '/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2a45.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f2a45.dir/CheckSymbolExists.cxx.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f2a45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2a45.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f2a45.dir/CheckSymbolExists.cxx.o  -o cmTC_f2a45 -rdynamic 
+CMakeFiles/cmTC_f2a45.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f2a45.dir/build.make:97: recipe for target 'cmTC_f2a45' failed
+make[1]: *** [cmTC_f2a45] Error 1
+make[1]: Leaving directory '/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f2a45/fast' failed
+make: *** [cmTC_f2a45/fast] Error 2
+
+File /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3ff3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3ff3.dir/build.make CMakeFiles/cmTC_f3ff3.dir/build
+make[1]: Entering directory '/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3ff3.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f3ff3.dir/CheckFunctionExists.cxx.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_f3ff3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ff3.dir/link.txt --verbose=1
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f3ff3.dir/CheckFunctionExists.cxx.o  -o cmTC_f3ff3 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3ff3.dir/build.make:97: recipe for target 'cmTC_f3ff3' failed
+make[1]: *** [cmTC_f3ff3] Error 1
+make[1]: Leaving directory '/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f3ff3/fast' failed
+make: *** [cmTC_f3ff3/fast] Error 2
+
+
