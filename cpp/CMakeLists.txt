@@ -16,8 +16,16 @@
 
 cmake_minimum_required(VERSION 2.8.8)
 
+ 
+
 project (Cpp-SDK-logging-sample)
 enable_language(CXX)
+
+# Path to CMake's scripts.
+set(CMAKE_MODULE_PATH
+	 ${CMAKE_MODULE_PATH}
+	 ${CMAKE_CURRENT_SOURCE_DIR}/libs/kaa/Modules
+    )
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall -Wextra -I/usr/local/include")
 
@@ -29,13 +37,23 @@ if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -L/usr/local/lib -std=gnu++11 -stdlib=libc++")
 endif()
 
+ 
+
+
+ 
 add_definitions(-DPOWER_PLANT_STARTUP_WORKAROUND=${POWER_PLANT_STARTUP_WORKAROUND})
 add_definitions(-DPOWER_PLANT_RANDOMIZER=${POWER_PLANT_RANDOMIZER})
 add_definitions(-DPOWER_PLANT_DEBUG_LOGGING=${POWER_PLANT_DEBUG_LOGGING})
-
+ 
+                   
+                   
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src
                     ${CMAKE_CURRENT_SOURCE_DIR}/libs/kaa
                    )
+
+                    
+                    
+                    
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/build
                  ${CMAKE_CURRENT_SOURCE_DIR}/libs/kaa/build
@@ -50,16 +68,26 @@ set (DEMO_SOURCE_FILES
 
 add_executable(${APP_NAME} ${DEMO_SOURCE_FILES})
 
+ 
+add_subdirectory(libs/kaa)
+#add_executable(${APP_NAME} ${SAMPLE_SOURCE_FILES})
+#install(TARGETS ${APP_NAME} DESTINATION bin)
+
 if (CMAKE_COMPILER_IS_GNUCXX)
-    target_link_libraries(${APP_NAME} kaacpp_s botan-1.10 boost_log boost_thread boost_system avrocpp pthread)
+    target_link_libraries(${APP_NAME} kaacpp ${BOTAN_LIBRARY} ${AVRO_LIBRARIES} ${Boost_LIBRARIES} pthread)
 endif()
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
-    target_link_libraries(${APP_NAME} kaacpp_s botan-1.10 boost_log-mt boost_thread-mt boost_system-mt avrocpp)
+    target_link_libraries(${APP_NAME} kaacpp ${BOTAN_LIBRARY} ${AVRO_LIBRARIES} ${Boost_LIBRARIES})
 endif()
 
+if (MSVC)
+    target_link_libraries(${APP_NAME} kaacpp ${BOTAN_LIBRARY} ${AVRO_LIBRARIES} ${Boost_LIBRARIES} dbghelp)
+endif()
+ 
+
 if (NOT POWER_PLANT_RANDOMIZER)
-    target_link_libraries(${APP_NAME} mraa)
+ #   target_link_libraries(${APP_NAME} mraa)
 endif()
 
 install (TARGETS ${APP_NAME} DESTINATION /usr/local/sbin/)

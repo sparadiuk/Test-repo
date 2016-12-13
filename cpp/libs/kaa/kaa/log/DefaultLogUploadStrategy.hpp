@@ -53,6 +53,7 @@ namespace kaa {
 class DefaultLogUploadStrategy: public ILogUploadStrategy {
 public:
     DefaultLogUploadStrategy(IKaaClientContext &context): context_(context) {}
+    DefaultLogUploadStrategy(): context_(context_){}
 
     virtual LogUploadStrategyDecision isUploadNeeded(ILogStorageStatus& status);
 

@@ -31,13 +31,13 @@ CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o
  ..//kaa/ClientStatus.hpp
  ..//kaa/EndpointConnectionInfo.hpp
@@ -194,45 +194,45 @@ CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/init.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/init.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o
  ..//kaa/ClientStatus.hpp
  ..//kaa/EndpointConnectionInfo.hpp
@@ -398,44 +398,44 @@ CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o
  ..//kaa/KaaClientProperties.hpp
  ..//kaa/KaaDefaults.hpp
@@ -457,13 +457,13 @@ CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/channel/GenericTransportInfo.hpp
@@ -484,13 +484,13 @@ CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClient.hpp
@@ -566,13 +566,13 @@ CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -639,33 +639,33 @@ CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
 CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClient.hpp
@@ -736,13 +736,13 @@ CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o
  ..//kaa/bootstrap/IBootstrapManager.hpp
  ..//kaa/channel/RedirectionTransport.hpp
@@ -807,13 +807,13 @@ CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o
  ..//kaa/channel/TransportProtocolId.hpp
  ..//kaa/channel/TransportProtocolIdConstants.hpp
@@ -860,33 +860,33 @@ CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
 CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/channel/ITransportConnectionInfo.hpp
@@ -909,13 +909,13 @@ CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -976,44 +976,44 @@ CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1073,44 +1073,44 @@ CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClient.hpp
@@ -1200,62 +1200,62 @@ CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o
  ..//kaa/common/EndpointObjectHash.hpp
  ..//kaa/common/exception/KaaException.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/common/EndpointObjectHash.cpp
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mdx_hash.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/sha160.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mdx_hash.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/sha160.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1298,13 +1298,13 @@ CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1349,13 +1349,13 @@ CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o
  ..//kaa/configuration/storage/FileConfigurationStorage.hpp
  ..//kaa/configuration/storage/IConfigurationStorage.hpp
@@ -1385,13 +1385,13 @@ CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/KaaThread.hpp
@@ -1419,13 +1419,13 @@ CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1457,13 +1457,13 @@ CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1508,13 +1508,13 @@ CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/channel/ITransportConnectionInfo.hpp
@@ -1536,13 +1536,13 @@ CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/channel/ITransportConnectionInfo.hpp
@@ -1562,13 +1562,13 @@ CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1598,13 +1598,13 @@ CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o
  ..//kaa/common/exception/KaaException.hpp
  ..//kaa/kaatcp/ConnackMessage.hpp
@@ -1649,13 +1649,13 @@ CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1693,13 +1693,13 @@ CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1741,13 +1741,13 @@ CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1818,13 +1818,13 @@ CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o
  ..//kaa/log/LogStorageConstants.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/LogStorageConstants.cpp
@@ -1888,13 +1888,13 @@ CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -1934,13 +1934,13 @@ CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o
  ..//kaa/log/BucketInfo.hpp
  ..//kaa/log/RecordFuture.hpp
@@ -1967,13 +1967,13 @@ CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/channel/ITransportConnectionInfo.hpp
@@ -1994,13 +1994,13 @@ CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o
  ..//kaa/channel/ITransportConnectionInfo.hpp
  ..//kaa/channel/ServerType.hpp
@@ -2066,75 +2066,75 @@ CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
 CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o
  ..//kaa/common/exception/KaaException.hpp
  ..//kaa/security/KeyUtils.hpp
  ..//kaa/security/SecurityDefinitions.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/security/KeyUtils.cpp
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/pkcs8.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/pkcs8.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -2168,54 +2168,54 @@ CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/eme.h
- /usr/local/include/botan-1.11/botan/emsa.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/fd_unix.h
- /usr/local/include/botan-1.11/botan/filter.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/kdf.h
- /usr/local/include/botan-1.11/botan/key_filt.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pipe.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/pk_ops.h
- /usr/local/include/botan-1.11/botan/pkcs8.h
- /usr/local/include/botan-1.11/botan/pubkey.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/eme.h
+ /usr/local/include/botan/emsa.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/fd_unix.h
+ /usr/local/include/botan/filter.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/kdf.h
+ /usr/local/include/botan/key_filt.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pipe.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/pk_ops.h
+ /usr/local/include/botan/pkcs8.h
+ /usr/local/include/botan/pubkey.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o
  ..//kaa/EndpointConnectionInfo.hpp
  ..//kaa/IKaaClientContext.hpp
@@ -2251,44 +2251,44 @@ CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/alg_id.h
- /usr/local/include/botan-1.11/botan/asn1_obj.h
- /usr/local/include/botan-1.11/botan/asn1_oid.h
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/auto_rng.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/bigint.h
- /usr/local/include/botan-1.11/botan/block_cipher.h
- /usr/local/include/botan-1.11/botan/botan.h
- /usr/local/include/botan-1.11/botan/bswap.h
- /usr/local/include/botan-1.11/botan/buf_comp.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/cipher_mode.h
- /usr/local/include/botan-1.11/botan/data_src.h
- /usr/local/include/botan-1.11/botan/exceptn.h
- /usr/local/include/botan-1.11/botan/hash.h
- /usr/local/include/botan-1.11/botan/if_algo.h
- /usr/local/include/botan-1.11/botan/key_spec.h
- /usr/local/include/botan-1.11/botan/loadstor.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/lookup.h
- /usr/local/include/botan-1.11/botan/mac.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/mp_types.h
- /usr/local/include/botan-1.11/botan/parsing.h
- /usr/local/include/botan-1.11/botan/pk_keys.h
- /usr/local/include/botan-1.11/botan/rng.h
- /usr/local/include/botan-1.11/botan/rotate.h
- /usr/local/include/botan-1.11/botan/rsa.h
- /usr/local/include/botan-1.11/botan/scan_name.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/stream_cipher.h
- /usr/local/include/botan-1.11/botan/sym_algo.h
- /usr/local/include/botan-1.11/botan/symkey.h
- /usr/local/include/botan-1.11/botan/transform.h
- /usr/local/include/botan-1.11/botan/types.h
- /usr/local/include/botan-1.11/botan/version.h
- /usr/local/include/botan-1.11/botan/x509_key.h
+ /usr/local/include/botan/alg_id.h
+ /usr/local/include/botan/asn1_obj.h
+ /usr/local/include/botan/asn1_oid.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/bigint.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/cipher_mode.h
+ /usr/local/include/botan/data_src.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/if_algo.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/mp_types.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/pk_keys.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/rsa.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
+ /usr/local/include/botan/x509_key.h
 CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o
  ..//kaa/KaaDefaults.hpp
  ..//kaa/KaaThread.hpp
@@ -2310,10 +2310,10 @@ CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o
  /usr/local/include/avro/Stream.hh
  /usr/local/include/avro/Types.hh
  /usr/local/include/avro/ValidSchema.hh
- /usr/local/include/botan-1.11/botan/assert.h
- /usr/local/include/botan-1.11/botan/base64.h
- /usr/local/include/botan-1.11/botan/build.h
- /usr/local/include/botan-1.11/botan/locking_allocator.h
- /usr/local/include/botan-1.11/botan/mem_ops.h
- /usr/local/include/botan-1.11/botan/secmem.h
- /usr/local/include/botan-1.11/botan/types.h
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h

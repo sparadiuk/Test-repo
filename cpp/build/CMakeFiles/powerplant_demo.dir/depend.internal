@@ -58,6 +58,24 @@ CMakeFiles/powerplant_demo.dir/src/KaaDemo.cpp.o
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/PowerPlantController.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ReportingManager.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/SolarPanel.hpp
+ /usr/local/include/avro/Compiler.hh
+ /usr/local/include/avro/Config.hh
+ /usr/local/include/avro/Decoder.hh
+ /usr/local/include/avro/Encoder.hh
+ /usr/local/include/avro/Exception.hh
+ /usr/local/include/avro/Node.hh
+ /usr/local/include/avro/SchemaResolution.hh
+ /usr/local/include/avro/Specific.hh
+ /usr/local/include/avro/Stream.hh
+ /usr/local/include/avro/Types.hh
+ /usr/local/include/avro/ValidSchema.hh
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/powerplant_demo.dir/src/PowerPlantController.cpp.o
  ../libs/kaa/kaa/EndpointConnectionInfo.hpp
  ../libs/kaa/kaa/IKaaClient.hpp
@@ -127,6 +145,45 @@ CMakeFiles/powerplant_demo.dir/src/PowerPlantController.cpp.o
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/PowerPlantController.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ReportingManager.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/SolarPanel.hpp
+ /usr/local/include/avro/Compiler.hh
+ /usr/local/include/avro/Config.hh
+ /usr/local/include/avro/Decoder.hh
+ /usr/local/include/avro/Encoder.hh
+ /usr/local/include/avro/Exception.hh
+ /usr/local/include/avro/Node.hh
+ /usr/local/include/avro/SchemaResolution.hh
+ /usr/local/include/avro/Specific.hh
+ /usr/local/include/avro/Stream.hh
+ /usr/local/include/avro/Types.hh
+ /usr/local/include/avro/ValidSchema.hh
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/auto_rng.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/block_cipher.h
+ /usr/local/include/botan/botan.h
+ /usr/local/include/botan/bswap.h
+ /usr/local/include/botan/buf_comp.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/exceptn.h
+ /usr/local/include/botan/hash.h
+ /usr/local/include/botan/init.h
+ /usr/local/include/botan/key_spec.h
+ /usr/local/include/botan/loadstor.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/lookup.h
+ /usr/local/include/botan/mac.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/parsing.h
+ /usr/local/include/botan/rng.h
+ /usr/local/include/botan/rotate.h
+ /usr/local/include/botan/scan_name.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/stream_cipher.h
+ /usr/local/include/botan/sym_algo.h
+ /usr/local/include/botan/symkey.h
+ /usr/local/include/botan/transform.h
+ /usr/local/include/botan/types.h
+ /usr/local/include/botan/version.h
 CMakeFiles/powerplant_demo.dir/src/ReportingManager.cpp.o
  ../libs/kaa/kaa/EndpointConnectionInfo.hpp
  ../libs/kaa/kaa/IKaaClient.hpp
@@ -181,9 +238,37 @@ CMakeFiles/powerplant_demo.dir/src/ReportingManager.cpp.o
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ConfigurationConstants.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ReportingManager.cpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ReportingManager.hpp
+ /usr/local/include/avro/Compiler.hh
+ /usr/local/include/avro/Config.hh
+ /usr/local/include/avro/Decoder.hh
+ /usr/local/include/avro/Encoder.hh
+ /usr/local/include/avro/Exception.hh
+ /usr/local/include/avro/Node.hh
+ /usr/local/include/avro/SchemaResolution.hh
+ /usr/local/include/avro/Specific.hh
+ /usr/local/include/avro/Stream.hh
+ /usr/local/include/avro/Types.hh
+ /usr/local/include/avro/ValidSchema.hh
+ /usr/local/include/botan/assert.h
+ /usr/local/include/botan/base64.h
+ /usr/local/include/botan/build.h
+ /usr/local/include/botan/locking_allocator.h
+ /usr/local/include/botan/mem_ops.h
+ /usr/local/include/botan/secmem.h
+ /usr/local/include/botan/types.h
 CMakeFiles/powerplant_demo.dir/src/SolarPanel.cpp.o
  ../libs/kaa/kaa/log/gen/LogDefinitions.hpp
  ../libs/kaa/kaa/log/gen/LogGen.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/ConfigurationConstants.hpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/SolarPanel.cpp
  /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/src/SolarPanel.hpp
+ /usr/local/include/avro/Config.hh
+ /usr/local/include/avro/Decoder.hh
+ /usr/local/include/avro/Encoder.hh
+ /usr/local/include/avro/Exception.hh
+ /usr/local/include/avro/Node.hh
+ /usr/local/include/avro/SchemaResolution.hh
+ /usr/local/include/avro/Specific.hh
+ /usr/local/include/avro/Stream.hh
+ /usr/local/include/avro/Types.hh
+ /usr/local/include/avro/ValidSchema.hh

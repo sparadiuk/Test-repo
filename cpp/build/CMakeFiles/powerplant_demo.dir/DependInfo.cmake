@@ -13,6 +13,18 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_LOG_DYN_LINK"
+  "KAA_DEFAULT_BOOTSTRAP_HTTP_CHANNEL"
+  "KAA_DEFAULT_CONNECTIVITY_CHECKER"
+  "KAA_DEFAULT_LONG_POLL_CHANNEL"
+  "KAA_DEFAULT_OPERATION_HTTP_CHANNEL"
+  "KAA_DEFAULT_TCP_CHANNEL"
+  "KAA_MAX_LOG_LEVEL=4"
+  "KAA_THREADSAFE"
+  "KAA_USE_CONFIGURATION"
+  "KAA_USE_EVENTS"
+  "KAA_USE_LOGGING"
+  "KAA_USE_NOTIFICATIONS"
   "POWER_PLANT_DEBUG_LOGGING=0"
   "POWER_PLANT_RANDOMIZER=0"
   "POWER_PLANT_STARTUP_WORKAROUND=1"
@@ -22,10 +34,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
   "../libs/kaa"
+  "/usr/local/include"
+  "/usr/local/include/botan-1.11"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa/CMakeFiles/kaacpp.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

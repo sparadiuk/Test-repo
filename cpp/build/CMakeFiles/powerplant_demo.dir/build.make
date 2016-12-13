@@ -168,6 +168,19 @@ powerplant_demo: CMakeFiles/powerplant_demo.dir/src/PowerPlantController.cpp.o
 powerplant_demo: CMakeFiles/powerplant_demo.dir/src/ReportingManager.cpp.o
 powerplant_demo: CMakeFiles/powerplant_demo.dir/src/SolarPanel.cpp.o
 powerplant_demo: CMakeFiles/powerplant_demo.dir/build.make
+powerplant_demo: libs/kaa/libkaacpp.a
+powerplant_demo: /usr/local/lib/libbotan-1.11.so
+powerplant_demo: /usr/local/lib/libavrocpp.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_log.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_system.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_log_setup.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+powerplant_demo: /usr/lib/x86_64-linux-gnu/libpthread.so
 powerplant_demo: CMakeFiles/powerplant_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable powerplant_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/powerplant_demo.dir/link.txt --verbose=$(VERBOSE)

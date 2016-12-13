@@ -167,6 +167,19 @@ powerplant_demo/fast:
 	$(MAKE) -f CMakeFiles/powerplant_demo.dir/build.make CMakeFiles/powerplant_demo.dir/build
 .PHONY : powerplant_demo/fast
 
+#=============================================================================
+# Target rules for targets named kaacpp
+
+# Build rule for target.
+kaacpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kaacpp
+.PHONY : kaacpp
+
+# fast build rule for target.
+kaacpp/fast:
+	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/build
+.PHONY : kaacpp/fast
+
 src/KaaDemo.o: src/KaaDemo.cpp.o
 
 .PHONY : src/KaaDemo.o
@@ -288,6 +301,7 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
+	@echo "... kaacpp"
 	@echo "... src/KaaDemo.o"
 	@echo "... src/KaaDemo.i"
 	@echo "... src/KaaDemo.s"

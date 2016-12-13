@@ -17,6 +17,87 @@
 //No help, variable specified on the command line.
 APP_NAME:UNINITIALIZED=powerplant_demo
 
+//Path to a file.
+AVRO_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+AVRO_LIBRARY:FILEPATH=/usr/local/lib/libavrocpp.so
+
+//The threading library used by boost-thread
+BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
+
+//Path to a file.
+BOTAN_INCLUDE_DIR:PATH=/usr/local/include/botan-1.11
+
+//Path to a library.
+BOTAN_LIBRARY:FILEPATH=/usr/local/lib/libbotan-1.11.so
+
+//Boost atomic library (debug)
+Boost_ATOMIC_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_atomic.so
+
+//Boost atomic library (release)
+Boost_ATOMIC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_atomic.so
+
+//Boost chrono library (debug)
+Boost_CHRONO_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_chrono.so
+
+//Boost chrono library (release)
+Boost_CHRONO_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_chrono.so
+
+//Boost date_time library (debug)
+Boost_DATE_TIME_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
+
+//Boost date_time library (release)
+Boost_DATE_TIME_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_date_time.so
+
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
+//Boost filesystem library (debug)
+Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+
+//Boost filesystem library (release)
+Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/usr/include
+
+//Boost library directory DEBUG
+Boost_LIBRARY_DIR_DEBUG:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost library directory RELEASE
+Boost_LIBRARY_DIR_RELEASE:PATH=/usr/lib/x86_64-linux-gnu
+
+//Boost log library (debug)
+Boost_LOG_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_log.so
+
+//Boost log library (release)
+Boost_LOG_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_log.so
+
+//Boost log_setup library (debug)
+Boost_LOG_SETUP_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_log_setup.so
+
+//Boost log_setup library (release)
+Boost_LOG_SETUP_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_log_setup.so
+
+//Boost regex library (debug)
+Boost_REGEX_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
+
+//Boost regex library (release)
+Boost_REGEX_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_regex.so
+
+//Boost system library (debug)
+Boost_SYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
+
+//Boost system library (release)
+Boost_SYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_system.so
+
+//Boost thread library (debug)
+Boost_THREAD_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
+
+//Boost thread library (release)
+Boost_THREAD_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_thread.so
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -174,6 +255,18 @@ Cpp-SDK-logging-sample_BINARY_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-
 //Value Computed by CMake
 Cpp-SDK-logging-sample_SOURCE_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp
 
+//Enable RSA key generation at runtime
+KAA_RUNTIME_KEY_GENERATION:BOOL=ON
+
+//Value Computed by CMake
+KaaCppSdk_BINARY_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa
+
+//Value Computed by CMake
+KaaCppSdk_SOURCE_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //No help, variable specified on the command line.
 POWER_PLANT_DEBUG_LOGGING:UNINITIALIZED=0
 
@@ -183,11 +276,102 @@ POWER_PLANT_RANDOMIZER:UNINITIALIZED=0
 //No help, variable specified on the command line.
 POWER_PLANT_STARTUP_WORKAROUND:UNINITIALIZED=1
 
+//Dependencies for the target
+kaacpp_LIB_DEPENDS:STATIC=general;/usr/local/lib/libbotan-1.11.so;general;-lrt;general;/usr/local/lib/libavrocpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_log.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_log_setup.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;-lpthread;
+
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: AVRO_INCLUDE_DIR
+AVRO_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: AVRO_LIBRARY
+AVRO_LIBRARY-ADVANCED:INTERNAL=1
+BOTAN_CFLAGS:INTERNAL=-I/usr/local/include/botan-1.11
+BOTAN_CFLAGS_I:INTERNAL=
+BOTAN_CFLAGS_OTHER:INTERNAL=
+//ADVANCED property for variable: BOTAN_FOUND
+BOTAN_FOUND-ADVANCED:INTERNAL=1
+BOTAN_FOUND:INTERNAL=1
+BOTAN_INCLUDEDIR:INTERNAL=/usr/local/include/botan-1.11
+//ADVANCED property for variable: BOTAN_INCLUDE_DIR
+BOTAN_INCLUDE_DIR-ADVANCED:INTERNAL=1
+BOTAN_INCLUDE_DIRS:INTERNAL=/usr/local/include/botan-1.11
+BOTAN_LDFLAGS:INTERNAL=-L/usr/local/lib;-lbotan-1.11
+BOTAN_LDFLAGS_OTHER:INTERNAL=
+BOTAN_LIBDIR:INTERNAL=/usr/local/lib
+BOTAN_LIBRARIES:INTERNAL=botan-1.11
+//ADVANCED property for variable: BOTAN_LIBRARY
+BOTAN_LIBRARY-ADVANCED:INTERNAL=1
+BOTAN_LIBRARY_DIRS:INTERNAL=/usr/local/lib
+BOTAN_LIBS:INTERNAL=
+BOTAN_LIBS_L:INTERNAL=
+BOTAN_LIBS_OTHER:INTERNAL=
+BOTAN_LIBS_PATHS:INTERNAL=
+BOTAN_PREFIX:INTERNAL=/usr/local
+BOTAN_STATIC_CFLAGS:INTERNAL=-I/usr/local/include/botan-1.11
+BOTAN_STATIC_CFLAGS_I:INTERNAL=
+BOTAN_STATIC_CFLAGS_OTHER:INTERNAL=
+BOTAN_STATIC_INCLUDE_DIRS:INTERNAL=/usr/local/include/botan-1.11
+BOTAN_STATIC_LDFLAGS:INTERNAL=-L/usr/local/lib;-lbotan-1.11;-lrt
+BOTAN_STATIC_LDFLAGS_OTHER:INTERNAL=
+BOTAN_STATIC_LIBDIR:INTERNAL=
+BOTAN_STATIC_LIBRARIES:INTERNAL=botan-1.11;rt
+BOTAN_STATIC_LIBRARY_DIRS:INTERNAL=/usr/local/lib
+BOTAN_STATIC_LIBS:INTERNAL=
+BOTAN_STATIC_LIBS_L:INTERNAL=
+BOTAN_STATIC_LIBS_OTHER:INTERNAL=
+BOTAN_STATIC_LIBS_PATHS:INTERNAL=
+BOTAN_VERSION:INTERNAL=1.11.28
+BOTAN_botan-1.11_INCLUDEDIR:INTERNAL=
+BOTAN_botan-1.11_LIBDIR:INTERNAL=
+BOTAN_botan-1.11_PREFIX:INTERNAL=
+BOTAN_botan-1.11_VERSION:INTERNAL=
+//ADVANCED property for variable: Boost_ATOMIC_LIBRARY_DEBUG
+Boost_ATOMIC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_ATOMIC_LIBRARY_RELEASE
+Boost_ATOMIC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_CHRONO_LIBRARY_DEBUG
+Boost_CHRONO_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_CHRONO_LIBRARY_RELEASE
+Boost_CHRONO_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_DEBUG
+Boost_DATE_TIME_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DATE_TIME_LIBRARY_RELEASE
+Boost_DATE_TIME_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_DEBUG
+Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
+Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_DEBUG
+Boost_LIBRARY_DIR_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LIBRARY_DIR_RELEASE
+Boost_LIBRARY_DIR_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_LIBRARY_DEBUG
+Boost_LOG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_LIBRARY_RELEASE
+Boost_LOG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_SETUP_LIBRARY_DEBUG
+Boost_LOG_SETUP_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_LOG_SETUP_LIBRARY_RELEASE
+Boost_LOG_SETUP_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_DEBUG
+Boost_REGEX_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_REGEX_LIBRARY_RELEASE
+Boost_REGEX_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_DEBUG
+Boost_SYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_SYSTEM_LIBRARY_RELEASE
+Boost_SYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_DEBUG
+Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_THREAD_LIBRARY_RELEASE
+Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -252,6 +436,14 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have symbol pthread_create
+CMAKE_HAVE_LIBC_CREATE:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp
@@ -274,7 +466,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -313,4 +505,53 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Avro
+FIND_PACKAGE_MESSAGE_DETAILS_Avro:INTERNAL=[/usr/local/lib/libavrocpp.so][/usr/local/include][v()]
+//Details about finding Botan
+FIND_PACKAGE_MESSAGE_DETAILS_Botan:INTERNAL=[/usr/local/lib/libbotan-1.11.so][/usr/local/include/botan-1.11][v()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+PC_AVRO_CFLAGS:INTERNAL=
+PC_AVRO_CFLAGS_I:INTERNAL=
+PC_AVRO_CFLAGS_OTHER:INTERNAL=
+PC_AVRO_FOUND:INTERNAL=
+PC_AVRO_INCLUDEDIR:INTERNAL=
+PC_AVRO_LIBDIR:INTERNAL=
+PC_AVRO_LIBS:INTERNAL=
+PC_AVRO_LIBS_L:INTERNAL=
+PC_AVRO_LIBS_OTHER:INTERNAL=
+PC_AVRO_LIBS_PATHS:INTERNAL=
+PC_AVRO_PREFIX:INTERNAL=
+PC_AVRO_STATIC_CFLAGS:INTERNAL=
+PC_AVRO_STATIC_CFLAGS_I:INTERNAL=
+PC_AVRO_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_AVRO_STATIC_LIBDIR:INTERNAL=
+PC_AVRO_STATIC_LIBS:INTERNAL=
+PC_AVRO_STATIC_LIBS_L:INTERNAL=
+PC_AVRO_STATIC_LIBS_OTHER:INTERNAL=
+PC_AVRO_STATIC_LIBS_PATHS:INTERNAL=
+PC_AVRO_VERSION:INTERNAL=
+PC_AVRO_avro-cpp_INCLUDEDIR:INTERNAL=
+PC_AVRO_avro-cpp_LIBDIR:INTERNAL=
+PC_AVRO_avro-cpp_PREFIX:INTERNAL=
+PC_AVRO_avro-cpp_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=atomic;chrono;date_time;filesystem;log;log_setup;regex;system;thread
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
+//Last used Boost_LIBRARY_DIR_DEBUG value.
+_Boost_LIBRARY_DIR_DEBUG_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_LIBRARY_DIR_RELEASE value.
+_Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/x86_64-linux-gnu
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+__pkg_config_checked_BOTAN:INTERNAL=1
+__pkg_config_checked_PC_AVRO:INTERNAL=1
+prefix_result:INTERNAL=/usr/local/lib
 

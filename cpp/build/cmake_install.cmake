@@ -52,12 +52,18 @@ file(INSTALL DESTINATION "/usr/local/sbin" TYPE EXECUTABLE FILES "/home/user1511
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/sbin/powerplant_demo")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/sbin/powerplant_demo"
-         OLD_RPATH "/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build:/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build:"
+         OLD_RPATH "/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build:/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/sbin/powerplant_demo")
     endif()
   endif()
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

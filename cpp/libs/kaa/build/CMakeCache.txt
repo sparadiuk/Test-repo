@@ -255,7 +255,7 @@ KaaCppSdk_SOURCE_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-ap
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Dependencies for the target
-kaacpp_LIB_DEPENDS:STATIC=general;/usr/local/lib/libbotan-1.11.so;general;/usr/local/lib/libavrocpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_log.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_log_setup.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;-lpthread;
+kaacpp_LIB_DEPENDS:STATIC=general;/usr/local/lib/libbotan-1.11.so;general;-lrt;general;/usr/local/lib/libavrocpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_log.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_log_setup.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;-lpthread;
 
 
 ########################
