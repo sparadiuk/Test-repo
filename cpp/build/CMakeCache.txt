@@ -255,8 +255,23 @@ Cpp-SDK-logging-sample_BINARY_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-
 //Value Computed by CMake
 Cpp-SDK-logging-sample_SOURCE_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp
 
+//No help, variable specified on the command line.
+KAA_MAX_LOG_LEVEL:UNINITIALIZED=6
+
 //Enable RSA key generation at runtime
 KAA_RUNTIME_KEY_GENERATION:BOOL=ON
+
+//No help, variable specified on the command line.
+KAA_WITHOUT_EVENTS:UNINITIALIZED=1
+
+//No help, variable specified on the command line.
+KAA_WITHOUT_NOTIFICATIONS:UNINITIALIZED=1
+
+//No help, variable specified on the command line.
+KAA_WITHOUT_OPERATION_HTTP_CHANNEL:UNINITIALIZED=1
+
+//No help, variable specified on the command line.
+KAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL:UNINITIALIZED=1
 
 //Value Computed by CMake
 KaaCppSdk_BINARY_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa
@@ -268,7 +283,7 @@ KaaCppSdk_SOURCE_DIR:STATIC=/home/user151137/work/Projects/KAA/kaa-all/sample-ap
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //No help, variable specified on the command line.
-POWER_PLANT_DEBUG_LOGGING:UNINITIALIZED=0
+POWER_PLANT_DEBUG_LOGGING:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
 POWER_PLANT_RANDOMIZER:UNINITIALIZED=0

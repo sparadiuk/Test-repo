@@ -32,28 +32,6 @@ SolarPanel::SolarPanel(std::int32_t zoneId, std::int32_t panelId)
 #endif
 }
 
-kaa_log::VoltageSample SolarPanel::getVoltageSample()
-{
-    kaa_log::VoltageSample sample;
-
-    sample.zoneId = zoneId_;
-    sample.panelId = panelId_;
-
-#if POWER_PLANT_RANDOMIZER
-    sample.voltage = (double)rand() / ((double)rand() + 1);
-#else
-  //  sample.voltage = panelConnection_->read() * POWER_PLANT_ADC_FACTOR;
-#endif
-
-#if POWER_PLANT_DEBUG_LOGGING
-    std::cout << "{";
-    std::cout << "zoneId:" << sample.zoneId << ", ";
-    std::cout << "panelId:" << sample.panelId << ", ";
-    std::cout << "voltage:" << sample.voltage;
-    std::cout << "}" << std::endl;
-#endif
-
-    return sample;
-}
+ 
 
 } /* namespace power_plant */

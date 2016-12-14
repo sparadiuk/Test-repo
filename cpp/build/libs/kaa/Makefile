@@ -601,60 +601,6 @@ impl/channel/impl/DefaultBootstrapChannel.cpp.s:
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.s
 .PHONY : impl/channel/impl/DefaultBootstrapChannel.cpp.s
 
-impl/channel/impl/DefaultOperationHttpChannel.o: impl/channel/impl/DefaultOperationHttpChannel.cpp.o
-
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.o
-
-# target to build an object file
-impl/channel/impl/DefaultOperationHttpChannel.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.cpp.o
-
-impl/channel/impl/DefaultOperationHttpChannel.i: impl/channel/impl/DefaultOperationHttpChannel.cpp.i
-
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.i
-
-# target to preprocess a source file
-impl/channel/impl/DefaultOperationHttpChannel.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.i
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.cpp.i
-
-impl/channel/impl/DefaultOperationHttpChannel.s: impl/channel/impl/DefaultOperationHttpChannel.cpp.s
-
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.s
-
-# target to generate assembly for a file
-impl/channel/impl/DefaultOperationHttpChannel.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.s
-.PHONY : impl/channel/impl/DefaultOperationHttpChannel.cpp.s
-
-impl/channel/impl/DefaultOperationLongPollChannel.o: impl/channel/impl/DefaultOperationLongPollChannel.cpp.o
-
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.o
-
-# target to build an object file
-impl/channel/impl/DefaultOperationLongPollChannel.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.cpp.o
-
-impl/channel/impl/DefaultOperationLongPollChannel.i: impl/channel/impl/DefaultOperationLongPollChannel.cpp.i
-
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.i
-
-# target to preprocess a source file
-impl/channel/impl/DefaultOperationLongPollChannel.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.i
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.cpp.i
-
-impl/channel/impl/DefaultOperationLongPollChannel.s: impl/channel/impl/DefaultOperationLongPollChannel.cpp.s
-
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.s
-
-# target to generate assembly for a file
-impl/channel/impl/DefaultOperationLongPollChannel.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.s
-.PHONY : impl/channel/impl/DefaultOperationLongPollChannel.cpp.s
-
 impl/channel/impl/DefaultOperationTcpChannel.o: impl/channel/impl/DefaultOperationTcpChannel.cpp.o
 
 .PHONY : impl/channel/impl/DefaultOperationTcpChannel.o
@@ -843,114 +789,6 @@ impl/context/SimpleExecutorContext.s: impl/context/SimpleExecutorContext.cpp.s
 impl/context/SimpleExecutorContext.cpp.s:
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.s
 .PHONY : impl/context/SimpleExecutorContext.cpp.s
-
-impl/event/EventManager.o: impl/event/EventManager.cpp.o
-
-.PHONY : impl/event/EventManager.o
-
-# target to build an object file
-impl/event/EventManager.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o
-.PHONY : impl/event/EventManager.cpp.o
-
-impl/event/EventManager.i: impl/event/EventManager.cpp.i
-
-.PHONY : impl/event/EventManager.i
-
-# target to preprocess a source file
-impl/event/EventManager.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.i
-.PHONY : impl/event/EventManager.cpp.i
-
-impl/event/EventManager.s: impl/event/EventManager.cpp.s
-
-.PHONY : impl/event/EventManager.s
-
-# target to generate assembly for a file
-impl/event/EventManager.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.s
-.PHONY : impl/event/EventManager.cpp.s
-
-impl/event/EventTransport.o: impl/event/EventTransport.cpp.o
-
-.PHONY : impl/event/EventTransport.o
-
-# target to build an object file
-impl/event/EventTransport.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o
-.PHONY : impl/event/EventTransport.cpp.o
-
-impl/event/EventTransport.i: impl/event/EventTransport.cpp.i
-
-.PHONY : impl/event/EventTransport.i
-
-# target to preprocess a source file
-impl/event/EventTransport.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.i
-.PHONY : impl/event/EventTransport.cpp.i
-
-impl/event/EventTransport.s: impl/event/EventTransport.cpp.s
-
-.PHONY : impl/event/EventTransport.s
-
-# target to generate assembly for a file
-impl/event/EventTransport.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.s
-.PHONY : impl/event/EventTransport.cpp.s
-
-impl/event/registration/EndpointRegistrationManager.o: impl/event/registration/EndpointRegistrationManager.cpp.o
-
-.PHONY : impl/event/registration/EndpointRegistrationManager.o
-
-# target to build an object file
-impl/event/registration/EndpointRegistrationManager.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o
-.PHONY : impl/event/registration/EndpointRegistrationManager.cpp.o
-
-impl/event/registration/EndpointRegistrationManager.i: impl/event/registration/EndpointRegistrationManager.cpp.i
-
-.PHONY : impl/event/registration/EndpointRegistrationManager.i
-
-# target to preprocess a source file
-impl/event/registration/EndpointRegistrationManager.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.i
-.PHONY : impl/event/registration/EndpointRegistrationManager.cpp.i
-
-impl/event/registration/EndpointRegistrationManager.s: impl/event/registration/EndpointRegistrationManager.cpp.s
-
-.PHONY : impl/event/registration/EndpointRegistrationManager.s
-
-# target to generate assembly for a file
-impl/event/registration/EndpointRegistrationManager.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.s
-.PHONY : impl/event/registration/EndpointRegistrationManager.cpp.s
-
-impl/event/registration/UserTransport.o: impl/event/registration/UserTransport.cpp.o
-
-.PHONY : impl/event/registration/UserTransport.o
-
-# target to build an object file
-impl/event/registration/UserTransport.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o
-.PHONY : impl/event/registration/UserTransport.cpp.o
-
-impl/event/registration/UserTransport.i: impl/event/registration/UserTransport.cpp.i
-
-.PHONY : impl/event/registration/UserTransport.i
-
-# target to preprocess a source file
-impl/event/registration/UserTransport.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.i
-.PHONY : impl/event/registration/UserTransport.cpp.i
-
-impl/event/registration/UserTransport.s: impl/event/registration/UserTransport.cpp.s
-
-.PHONY : impl/event/registration/UserTransport.s
-
-# target to generate assembly for a file
-impl/event/registration/UserTransport.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.s
-.PHONY : impl/event/registration/UserTransport.cpp.s
 
 impl/failover/DefaultFailoverStrategy.o: impl/failover/DefaultFailoverStrategy.cpp.o
 
@@ -1465,60 +1303,6 @@ impl/logging/LoggingUtils.cpp.s:
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.s
 .PHONY : impl/logging/LoggingUtils.cpp.s
 
-impl/notification/NotificationManager.o: impl/notification/NotificationManager.cpp.o
-
-.PHONY : impl/notification/NotificationManager.o
-
-# target to build an object file
-impl/notification/NotificationManager.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o
-.PHONY : impl/notification/NotificationManager.cpp.o
-
-impl/notification/NotificationManager.i: impl/notification/NotificationManager.cpp.i
-
-.PHONY : impl/notification/NotificationManager.i
-
-# target to preprocess a source file
-impl/notification/NotificationManager.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.i
-.PHONY : impl/notification/NotificationManager.cpp.i
-
-impl/notification/NotificationManager.s: impl/notification/NotificationManager.cpp.s
-
-.PHONY : impl/notification/NotificationManager.s
-
-# target to generate assembly for a file
-impl/notification/NotificationManager.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.s
-.PHONY : impl/notification/NotificationManager.cpp.s
-
-impl/notification/NotificationTransport.o: impl/notification/NotificationTransport.cpp.o
-
-.PHONY : impl/notification/NotificationTransport.o
-
-# target to build an object file
-impl/notification/NotificationTransport.cpp.o:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o
-.PHONY : impl/notification/NotificationTransport.cpp.o
-
-impl/notification/NotificationTransport.i: impl/notification/NotificationTransport.cpp.i
-
-.PHONY : impl/notification/NotificationTransport.i
-
-# target to preprocess a source file
-impl/notification/NotificationTransport.cpp.i:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.i
-.PHONY : impl/notification/NotificationTransport.cpp.i
-
-impl/notification/NotificationTransport.s: impl/notification/NotificationTransport.cpp.s
-
-.PHONY : impl/notification/NotificationTransport.s
-
-# target to generate assembly for a file
-impl/notification/NotificationTransport.cpp.s:
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build && $(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.s
-.PHONY : impl/notification/NotificationTransport.cpp.s
-
 impl/profile/ProfileTransport.o: impl/profile/ProfileTransport.cpp.o
 
 .PHONY : impl/profile/ProfileTransport.o
@@ -1715,12 +1499,6 @@ help:
 	@echo "... impl/channel/impl/DefaultBootstrapChannel.o"
 	@echo "... impl/channel/impl/DefaultBootstrapChannel.i"
 	@echo "... impl/channel/impl/DefaultBootstrapChannel.s"
-	@echo "... impl/channel/impl/DefaultOperationHttpChannel.o"
-	@echo "... impl/channel/impl/DefaultOperationHttpChannel.i"
-	@echo "... impl/channel/impl/DefaultOperationHttpChannel.s"
-	@echo "... impl/channel/impl/DefaultOperationLongPollChannel.o"
-	@echo "... impl/channel/impl/DefaultOperationLongPollChannel.i"
-	@echo "... impl/channel/impl/DefaultOperationLongPollChannel.s"
 	@echo "... impl/channel/impl/DefaultOperationTcpChannel.o"
 	@echo "... impl/channel/impl/DefaultOperationTcpChannel.i"
 	@echo "... impl/channel/impl/DefaultOperationTcpChannel.s"
@@ -1742,18 +1520,6 @@ help:
 	@echo "... impl/context/SimpleExecutorContext.o"
 	@echo "... impl/context/SimpleExecutorContext.i"
 	@echo "... impl/context/SimpleExecutorContext.s"
-	@echo "... impl/event/EventManager.o"
-	@echo "... impl/event/EventManager.i"
-	@echo "... impl/event/EventManager.s"
-	@echo "... impl/event/EventTransport.o"
-	@echo "... impl/event/EventTransport.i"
-	@echo "... impl/event/EventTransport.s"
-	@echo "... impl/event/registration/EndpointRegistrationManager.o"
-	@echo "... impl/event/registration/EndpointRegistrationManager.i"
-	@echo "... impl/event/registration/EndpointRegistrationManager.s"
-	@echo "... impl/event/registration/UserTransport.o"
-	@echo "... impl/event/registration/UserTransport.i"
-	@echo "... impl/event/registration/UserTransport.s"
 	@echo "... impl/failover/DefaultFailoverStrategy.o"
 	@echo "... impl/failover/DefaultFailoverStrategy.i"
 	@echo "... impl/failover/DefaultFailoverStrategy.s"
@@ -1811,12 +1577,6 @@ help:
 	@echo "... impl/logging/LoggingUtils.o"
 	@echo "... impl/logging/LoggingUtils.i"
 	@echo "... impl/logging/LoggingUtils.s"
-	@echo "... impl/notification/NotificationManager.o"
-	@echo "... impl/notification/NotificationManager.i"
-	@echo "... impl/notification/NotificationManager.s"
-	@echo "... impl/notification/NotificationTransport.o"
-	@echo "... impl/notification/NotificationTransport.i"
-	@echo "... impl/notification/NotificationTransport.s"
 	@echo "... impl/profile/ProfileTransport.o"
 	@echo "... impl/profile/ProfileTransport.i"
 	@echo "... impl/profile/ProfileTransport.s"

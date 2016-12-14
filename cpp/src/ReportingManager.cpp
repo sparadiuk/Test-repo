@@ -22,8 +22,9 @@ namespace power_plant {
 
 ReportingManager::ReportingManager(kaa::IKaaClient& kaaClient)
     : kaaClient_(kaaClient)
-    , logUploadStrategy_(std::make_shared<kaa::DefaultLogUploadStrategy>())
+    , logUploadStrategy_(std::make_shared<kaa::DefaultLogUploadStrategy>(kaaClient.getKaaClientContext()))
 {
+	std::cout << "Log-->>>>>>>>>>>>>>>> ReportingManager" << std::endl;
     logUploadStrategy_->setCountThreshold(POWER_PLANT_REPORTING_FREQUENCY);
     logUploadStrategy_->setRetryPeriod(3);
     kaaClient_.setLogUploadStrategy(logUploadStrategy_);
@@ -32,7 +33,7 @@ ReportingManager::ReportingManager(kaa::IKaaClient& kaaClient)
 void ReportingManager::processConfiguration(const kaa::KaaRootConfiguration& configuration)
 {
     std::lock_guard<std::mutex> configurationLock(strategyGuard_);
-    logUploadStrategy_->setCountThreshold(configuration.reportingFrequency);
+    //logUploadStrategy_->setCountThreshold(configuration.reportingFrequency);
 }
 
 void ReportingManager::addReport(const kaa::KaaUserLogRecord& report)

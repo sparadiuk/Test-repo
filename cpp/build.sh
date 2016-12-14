@@ -40,40 +40,25 @@ KAA_C_LIB_HEADER_PATH="$KAA_LIB_PATH/src"
 KAA_CPP_LIB_HEADER_PATH="$KAA_LIB_PATH/kaa"
 KAA_SDK_TAR="kaa-c*.tar.gz"
 
+ 
+ 
 function build_thirdparty {
-    if [[ ! -d "$KAA_C_LIB_HEADER_PATH" &&  ! -d "$KAA_CPP_LIB_HEADER_PATH" ]]
-    then
-        KAA_SDK_TAR_NAME=$(find $PROJECT_HOME -iname $KAA_SDK_TAR)
-
-        if [ -z "$KAA_SDK_TAR_NAME" ]
-        then
-            echo "Please, put the generated C/C++ SDK tarball into the libs/kaa folder and re-run the script."
-            exit 1
-        fi
-
-        mkdir -p $KAA_LIB_PATH &&
-        tar -zxf $KAA_SDK_TAR_NAME -C $KAA_LIB_PATH
-    fi
-
-    if [ ! -d "$KAA_LIB_PATH/$BUILD_DIR" ]
-    then
-        cd $KAA_LIB_PATH &&
-        chmod 755 ./avrogen.sh &&
-        ./avrogen.sh && 
-        mkdir -p $BUILD_DIR && cd $BUILD_DIR &&
-        cmake -DCMAKE_BUILD_TYPE=Debug \
-              -DKAA_WITHOUT_EVENTS=1 \
-              -DKAA_WITHOUT_NOTIFICATIONS=1 \
-              -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
-              -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
-              -DKAA_MAX_LOG_LEVEL=3 \
-              ..
-    fi
-
-    cd "$PROJECT_HOME/$KAA_LIB_PATH/$BUILD_DIR"
-    make -j2 &&
-    cd $PROJECT_HOME
+    cd "$PROJECT_HOME" &&
+    mkdir -p "$PROJECT_HOME/$BUILD_DIR" &&
+    cd "$BUILD_DIR" &&
+    cmake  \
+        -DKAA_WITHOUT_EVENTS=1 \
+        -DKAA_WITHOUT_NOTIFICATIONS=1 \
+        -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
+        -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
+        -DKAA_MAX_LOG_LEVEL=6 \
+        "$KAA_TOOLCHAIN_PATH_SDK" \
+        ..
+    make $MAKE_THREADS
 }
+
+
+
 
 function build_app {
     mkdir -p "$PROJECT_HOME/$BUILD_DIR" &&
@@ -81,9 +66,21 @@ function build_app {
     cmake -DAPP_NAME=$APP_NAME \
           -DPOWER_PLANT_STARTUP_WORKAROUND=1 \
           -DPOWER_PLANT_RANDOMIZER=0 \
-          -DPOWER_PLANT_DEBUG_LOGGING=0 \
+          -DPOWER_PLANT_DEBUG_LOGGING=1 \
+           -DKAA_WITHOUT_EVENTS=1 \
+        -DKAA_WITHOUT_NOTIFICATIONS=1 \
+        -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
+        -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
+        -DKAA_MAX_LOG_LEVEL=6 \
           ..
     make -j2
+}
+
+function build {
+    mkdir -p "$PROJECT_HOME/build"
+    cd "$PROJECT_HOME/build"
+    cmake ..
+    make
 }
 
 # Need root privileges
@@ -129,11 +126,11 @@ case "$cmd" in
     ;;
 
     deploy)
-        check_root
-        build_thirdparty
+        #check_root
+        clean
         build_app
-        install_app
-        run_as_service
+        #install_app
+        #run_as_service
     ;;
 
     clean)

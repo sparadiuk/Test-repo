@@ -57,153 +57,9 @@ include libs/kaa/CMakeFiles/kaacpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o: ../libs/kaa/impl/event/registration/EndpointRegistrationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/EndpointRegistrationManager.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/EndpointRegistrationManager.cpp > CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/EndpointRegistrationManager.cpp -o CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o: ../libs/kaa/impl/event/registration/UserTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/UserTransport.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/UserTransport.cpp > CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/registration/UserTransport.cpp -o CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o: ../libs/kaa/impl/event/EventManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventManager.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventManager.cpp > CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventManager.cpp -o CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o: ../libs/kaa/impl/event/EventTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventTransport.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventTransport.cpp > CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/event/EventTransport.cpp -o CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o: ../libs/kaa/impl/notification/NotificationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationManager.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationManager.cpp > CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationManager.cpp -o CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o: ../libs/kaa/impl/notification/NotificationTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationTransport.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationTransport.cpp > CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/notification/NotificationTransport.cpp -o CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o
-
-
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o: ../libs/kaa/impl/configuration/ConfigurationTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/configuration/ConfigurationTransport.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.i: cmake_force
@@ -227,7 +83,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o.p
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o: ../libs/kaa/impl/configuration/manager/ConfigurationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/configuration/manager/ConfigurationManager.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.i: cmake_force
@@ -251,7 +107,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.c
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o: ../libs/kaa/impl/configuration/storage/FileConfigurationStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/configuration/storage/FileConfigurationStorage.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.i: cmake_force
@@ -275,7 +131,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStora
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o: ../libs/kaa/impl/log/LoggingTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/LoggingTransport.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.i: cmake_force
@@ -299,7 +155,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LoggingTransport.cpp.o.provides.build: l
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o: ../libs/kaa/impl/log/LogCollector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/LogCollector.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.i: cmake_force
@@ -323,7 +179,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogCollector.cpp.o.provides.build: libs/
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o: ../libs/kaa/impl/log/LogStorageConstants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/LogStorageConstants.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.i: cmake_force
@@ -347,7 +203,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/LogStorageConstants.cpp.o.provides.build
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o: ../libs/kaa/impl/log/RecordFuture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/RecordFuture.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.i: cmake_force
@@ -371,7 +227,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o.provides.build: libs/
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o: ../libs/kaa/impl/log/MemoryLogStorage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/MemoryLogStorage.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.i: cmake_force
@@ -395,7 +251,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o.provides.build: l
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o: ../libs/kaa/impl/log/DefaultLogUploadStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/log/DefaultLogUploadStrategy.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.i: cmake_force
@@ -419,7 +275,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o.provides.
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o: ../libs/kaa/impl/channel/impl/DefaultOperationTcpChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationTcpChannel.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.i: cmake_force
@@ -441,57 +297,9 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o
 
 
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o: ../libs/kaa/impl/channel/impl/DefaultOperationLongPollChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationLongPollChannel.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationLongPollChannel.cpp > CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationLongPollChannel.cpp -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o
-
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o: ../libs/kaa/impl/channel/impl/DefaultOperationHttpChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationHttpChannel.cpp
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.i"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationHttpChannel.cpp > CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.i
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.s"
-	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultOperationHttpChannel.cpp -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.s
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.requires:
-
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.requires
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.provides: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.requires
-	$(MAKE) -f libs/kaa/CMakeFiles/kaacpp.dir/build.make libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.provides.build
-.PHONY : libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.provides
-
-libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.provides.build: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o
-
-
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o: ../libs/kaa/impl/channel/impl/DefaultBootstrapChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/DefaultBootstrapChannel.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.i: cmake_force
@@ -515,7 +323,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o.p
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o: ../libs/kaa/impl/channel/connectivity/IPConnectivityChecker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/connectivity/IPConnectivityChecker.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.i: cmake_force
@@ -539,7 +347,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.c
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o: ../libs/kaa/impl/http/HttpUrl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/http/HttpUrl.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.i: cmake_force
@@ -563,7 +371,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o.provides.build: libs/kaa/
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o: ../libs/kaa/impl/http/MultipartPostHttpRequest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/http/MultipartPostHttpRequest.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.i: cmake_force
@@ -587,7 +395,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/http/MultipartPostHttpRequest.cpp.o.provides
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o: ../libs/kaa/impl/http/HttpResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/http/HttpResponse.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.i: cmake_force
@@ -611,7 +419,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpResponse.cpp.o.provides.build: libs
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o: ../libs/kaa/impl/http/HttpClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/http/HttpClient.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.i: cmake_force
@@ -635,7 +443,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpClient.cpp.o.provides.build: libs/k
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o: ../libs/kaa/impl/transport/HttpDataProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/transport/HttpDataProcessor.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.i: cmake_force
@@ -659,7 +467,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/transport/HttpDataProcessor.cpp.o.provides.b
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o: ../libs/kaa/impl/channel/impl/AbstractHttpChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/impl/AbstractHttpChannel.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.i: cmake_force
@@ -683,7 +491,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/AbstractHttpChannel.cpp.o.provi
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o: ../libs/kaa/impl/utils/ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/utils/ThreadPool.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.i: cmake_force
@@ -707,7 +515,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/utils/ThreadPool.cpp.o.provides.build: libs/
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o: ../libs/kaa/impl/ClientStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/ClientStatus.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.i: cmake_force
@@ -731,7 +539,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/ClientStatus.cpp.o.provides.build: libs/kaa/
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o: ../libs/kaa/impl/KaaDefaults.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/KaaDefaults.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.i: cmake_force
@@ -755,7 +563,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaDefaults.cpp.o.provides.build: libs/kaa/C
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o: ../libs/kaa/impl/Kaa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/Kaa.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.i: cmake_force
@@ -779,7 +587,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/Kaa.cpp.o.provides.build: libs/kaa/CMakeFile
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o: ../libs/kaa/impl/KaaClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/KaaClient.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.i: cmake_force
@@ -803,7 +611,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClient.cpp.o.provides.build: libs/kaa/CMa
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o: ../libs/kaa/impl/logging/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/logging/Log.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.i: cmake_force
@@ -827,7 +635,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/Log.cpp.o.provides.build: libs/kaa/C
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o: ../libs/kaa/impl/logging/DefaultLogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/logging/DefaultLogger.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.i: cmake_force
@@ -851,7 +659,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/DefaultLogger.cpp.o.provides.build: 
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o: ../libs/kaa/impl/logging/LoggingUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/logging/LoggingUtils.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.i: cmake_force
@@ -875,7 +683,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/logging/LoggingUtils.cpp.o.provides.build: l
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o: ../libs/kaa/impl/security/KeyUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/security/KeyUtils.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.i: cmake_force
@@ -899,7 +707,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/security/KeyUtils.cpp.o.provides.build: libs
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o: ../libs/kaa/impl/security/RsaEncoderDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/security/RsaEncoderDecoder.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.i: cmake_force
@@ -923,7 +731,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/security/RsaEncoderDecoder.cpp.o.provides.bu
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o: ../libs/kaa/impl/common/EndpointObjectHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/common/EndpointObjectHash.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.i: cmake_force
@@ -947,7 +755,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/common/EndpointObjectHash.cpp.o.provides.bui
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o: ../libs/kaa/impl/profile/ProfileTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/profile/ProfileTransport.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.i: cmake_force
@@ -971,7 +779,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/profile/ProfileTransport.cpp.o.provides.buil
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o: ../libs/kaa/impl/bootstrap/BootstrapManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/bootstrap/BootstrapManager.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.i: cmake_force
@@ -995,7 +803,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapManager.cpp.o.provides.bu
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o: ../libs/kaa/impl/bootstrap/BootstrapTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/bootstrap/BootstrapTransport.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.i: cmake_force
@@ -1019,7 +827,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/bootstrap/BootstrapTransport.cpp.o.provides.
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o: ../libs/kaa/impl/channel/SyncDataProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/SyncDataProcessor.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.i: cmake_force
@@ -1043,7 +851,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/SyncDataProcessor.cpp.o.provides.bui
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o: ../libs/kaa/impl/channel/RedirectionTransport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/RedirectionTransport.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.i: cmake_force
@@ -1067,7 +875,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/RedirectionTransport.cpp.o.provides.
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o: ../libs/kaa/impl/channel/KaaChannelManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/KaaChannelManager.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.i: cmake_force
@@ -1091,7 +899,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/KaaChannelManager.cpp.o.provides.bui
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o: ../libs/kaa/impl/kaatcp/KaaTcpCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/kaatcp/KaaTcpCommon.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.i: cmake_force
@@ -1115,7 +923,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpCommon.cpp.o.provides.build: li
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o: ../libs/kaa/impl/kaatcp/KaaTcpParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/kaatcp/KaaTcpParser.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.i: cmake_force
@@ -1139,7 +947,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpParser.cpp.o.provides.build: li
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o: ../libs/kaa/impl/kaatcp/ConnackMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/kaatcp/ConnackMessage.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.i: cmake_force
@@ -1163,7 +971,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/ConnackMessage.cpp.o.provides.build: 
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o: ../libs/kaa/impl/kaatcp/KaaSyncResponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/kaatcp/KaaSyncResponse.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.i: cmake_force
@@ -1187,7 +995,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaSyncResponse.cpp.o.provides.build:
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o: ../libs/kaa/impl/kaatcp/KaaTcpResponseProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/kaatcp/KaaTcpResponseProcessor.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.i: cmake_force
@@ -1211,7 +1019,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/kaatcp/KaaTcpResponseProcessor.cpp.o.provide
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o: ../libs/kaa/impl/channel/connectivity/PingConnectivityChecker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/connectivity/PingConnectivityChecker.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker.cpp.i: cmake_force
@@ -1235,7 +1043,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/PingConnectivityChecker
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o: ../libs/kaa/impl/channel/TransportProtocolIdConstants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/TransportProtocolIdConstants.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.i: cmake_force
@@ -1259,7 +1067,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/TransportProtocolIdConstants.cpp.o.p
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o: ../libs/kaa/impl/channel/IPTransportInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/channel/IPTransportInfo.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.i: cmake_force
@@ -1283,7 +1091,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/IPTransportInfo.cpp.o.provides.build
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o: ../libs/kaa/impl/failover/DefaultFailoverStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/failover/DefaultFailoverStrategy.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.i: cmake_force
@@ -1307,7 +1115,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/failover/DefaultFailoverStrategy.cpp.o.provi
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o: ../libs/kaa/impl/context/AbstractExecutorContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/context/AbstractExecutorContext.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.i: cmake_force
@@ -1331,7 +1139,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/context/AbstractExecutorContext.cpp.o.provid
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o: ../libs/kaa/impl/context/SimpleExecutorContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/context/SimpleExecutorContext.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.i: cmake_force
@@ -1355,7 +1163,7 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutorContext.cpp.o.provides
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o: libs/kaa/CMakeFiles/kaacpp.dir/flags.make
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o: ../libs/kaa/impl/KaaClientProperties.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o -c /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/impl/KaaClientProperties.cpp
 
 libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.i: cmake_force
@@ -1379,12 +1187,6 @@ libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o.provides.build: li
 
 # Object files for target kaacpp
 kaacpp_OBJECTS = \
-"CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o" \
@@ -1395,8 +1197,6 @@ kaacpp_OBJECTS = \
 "CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o" \
-"CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o" \
 "CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o" \
@@ -1438,12 +1238,6 @@ kaacpp_OBJECTS = \
 # External object files for target kaacpp
 kaacpp_EXTERNAL_OBJECTS =
 
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o
@@ -1454,8 +1248,6 @@ libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/log/RecordFuture.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o
-libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o
@@ -1495,7 +1287,7 @@ libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/context/SimpleExecutor
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/impl/KaaClientProperties.cpp.o
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/build.make
 libs/kaa/libkaacpp.a: libs/kaa/CMakeFiles/kaacpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX static library libkaacpp.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX static library libkaacpp.a"
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && $(CMAKE_COMMAND) -P CMakeFiles/kaacpp.dir/cmake_clean_target.cmake
 	cd /home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/build/libs/kaa && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kaacpp.dir/link.txt --verbose=$(VERBOSE)
 
@@ -1504,12 +1296,6 @@ libs/kaa/CMakeFiles/kaacpp.dir/build: libs/kaa/libkaacpp.a
 
 .PHONY : libs/kaa/CMakeFiles/kaacpp.dir/build
 
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/EndpointRegistrationManager.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/registration/UserTransport.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventManager.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/event/EventTransport.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationManager.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/notification/NotificationTransport.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/ConfigurationTransport.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/manager/ConfigurationManager.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/configuration/storage/FileConfigurationStorage.cpp.o.requires
@@ -1520,8 +1306,6 @@ libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/log
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/log/MemoryLogStorage.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/log/DefaultLogUploadStrategy.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationTcpChannel.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationLongPollChannel.cpp.o.requires
-libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultOperationHttpChannel.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/impl/DefaultBootstrapChannel.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/channel/connectivity/IPConnectivityChecker.cpp.o.requires
 libs/kaa/CMakeFiles/kaacpp.dir/requires: libs/kaa/CMakeFiles/kaacpp.dir/impl/http/HttpUrl.cpp.o.requires

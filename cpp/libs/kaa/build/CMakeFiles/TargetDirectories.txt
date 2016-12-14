@@ -1,7 +1,0 @@
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/install.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/list_install_components.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/rebuild_cache.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/install/strip.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/install/local.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/kaacpp.dir
-/home/user151137/work/Projects/KAA/kaa-all/sample-apps/powerplant/source/cpp/libs/kaa/build/CMakeFiles/edit_cache.dir

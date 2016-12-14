@@ -32,7 +32,7 @@ class SolarPanel {
 public:
     SolarPanel(std::int32_t zoneId, std::int32_t panelId);
 
-    kaa_log::VoltageSample getVoltageSample();
+    //kaa_log::VoltageSample getVoltageSample();
 
 private:
     const std::int32_t            zoneId_;
