@@ -14,35 +14,32 @@
  *  limitations under the License.
  */
 
-#ifndef SOLARPANEL_HPP_
-#define SOLARPANEL_HPP_
+#ifndef REPORTINGMANAGER_HPP_
+#define REPORTINGMANAGER_HPP_
 
 #include <memory>
+#include <mutex>
 
-#if !POWER_PLANT_RANDOMIZER
-#include <mraa.hpp>
-#endif
-
-#include "ConfigurationConstants.hpp"
-#include <kaa/log/gen/LogDefinitions.hpp>
+#include <kaa/IKaaClient.hpp>
+#include <kaa/log/DefaultLogUploadStrategy.hpp>
 
 namespace power_plant {
 
-class SolarPanel {
+class ReportingManager {
 public:
-    SolarPanel(std::int32_t zoneId, std::int32_t panelId);
+    ReportingManager(kaa::IKaaClient& kaaClient);
 
-    kaa_log::VoltageSample getVoltageSample();
+    void addReport(const kaa::KaaUserLogRecord& report);
+
+    void processConfiguration(const kaa::KaaRootConfiguration& configuration);
 
 private:
-    const std::int32_t            zoneId_;
-    const std::int32_t            panelId_;
+    kaa::IKaaClient& kaaClient_;
 
-#if !POWER_PLANT_RANDOMIZER
-    std::shared_ptr<mraa::Aio>    panelConnection_;
-#endif
+    std::shared_ptr<kaa::DefaultLogUploadStrategy> logUploadStrategy_;
+    std::mutex strategyGuard_;
 };
 
 } /* namespace power_plant */
 
-#endif /* SOLARPANEL_HPP_ */
+#endif /* REPORTINGMANAGER_HPP_ */

@@ -37,24 +37,14 @@ if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -L/usr/local/lib -std=gnu++11 -stdlib=libc++")
 endif()
 
- 
-
-
- 
 add_definitions(-DPOWER_PLANT_STARTUP_WORKAROUND=${POWER_PLANT_STARTUP_WORKAROUND})
 add_definitions(-DPOWER_PLANT_RANDOMIZER=${POWER_PLANT_RANDOMIZER})
-add_definitions(-DPOWER_PLANT_DEBUG_LOGGING=${POWER_PLANT_DEBUG_LOGGING})
- 
-                   
+add_definitions(-DPOWER_PLANT_DEBUG_LOGGING=${POWER_PLANT_DEBUG_LOGGING})                
                    
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src
                     ${CMAKE_CURRENT_SOURCE_DIR}/libs/kaa
                    )
-
-                    
-                    
-                    
-
+  
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/build
                  ${CMAKE_CURRENT_SOURCE_DIR}/libs/kaa/build
                  )
@@ -87,7 +77,7 @@ endif()
  
 
 if (NOT POWER_PLANT_RANDOMIZER)
- #   target_link_libraries(${APP_NAME} mraa)
+    target_link_libraries(${APP_NAME} mraa)
 endif()
 
 install (TARGETS ${APP_NAME} DESTINATION /usr/local/sbin/)

@@ -25,11 +25,9 @@
 #include <kaa/IKaaClient.hpp>
 #include <kaa/configuration/gen/ConfigurationDefinitions.hpp>
 #include <kaa/configuration/manager/IConfigurationReceiver.hpp>
-#include <kaa/Kaa.hpp>
-#include <kaa/IKaaClient.hpp>
+
 #include "SolarPanel.hpp"
 #include "ReportingManager.hpp"
- 
 
 namespace power_plant {
 
@@ -49,8 +47,6 @@ private:
 
 private:
     bool isShutdown_;
-    
-    std::shared_ptr<kaa::IKaaClient> kaaClient_;
 
     std::vector<SolarPanel> solarPanels_;
 

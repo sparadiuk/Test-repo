@@ -20,7 +20,7 @@
 #include <memory>
 
 #if !POWER_PLANT_RANDOMIZER
-#include <mraa.hpp>
+//#include <mraa.hpp>
 #endif
 
 #include "ConfigurationConstants.hpp"
@@ -39,7 +39,7 @@ private:
     const std::int32_t            panelId_;
 
 #if !POWER_PLANT_RANDOMIZER
-    std::shared_ptr<mraa::Aio>    panelConnection_;
+    //std::shared_ptr<mraa::Aio>    panelConnection_;
 #endif
 };
 

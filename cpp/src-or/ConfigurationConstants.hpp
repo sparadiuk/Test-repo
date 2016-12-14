@@ -14,35 +14,19 @@
  *  limitations under the License.
  */
 
-#ifndef SOLARPANEL_HPP_
-#define SOLARPANEL_HPP_
-
-#include <memory>
-
-#if !POWER_PLANT_RANDOMIZER
-#include <mraa.hpp>
-#endif
-
-#include "ConfigurationConstants.hpp"
-#include <kaa/log/gen/LogDefinitions.hpp>
+#ifndef CONFIGURATIONCONSTANTS_HPP_
+#define CONFIGURATIONCONSTANTS_HPP_
 
 namespace power_plant {
 
-class SolarPanel {
-public:
-    SolarPanel(std::int32_t zoneId, std::int32_t panelId);
+#define POWER_PLANT_ENABLED_REPORTING       true
+#define POWER_PLANT_MAX_SOLAR_PANEL_COUNT   6
+#define POWER_PLANT_SAMPLING_FREQUENCY      1000
+#define POWER_PLANT_REPORTING_FREQUENCY     1
 
-    kaa_log::VoltageSample getVoltageSample();
-
-private:
-    const std::int32_t            zoneId_;
-    const std::int32_t            panelId_;
-
-#if !POWER_PLANT_RANDOMIZER
-    std::shared_ptr<mraa::Aio>    panelConnection_;
-#endif
-};
+#define POWER_PLANT_CONFIGURATION_FILE      "power_plant.cfg"
+#define POWER_PLANT_ADC_FACTOR              0.004566667
 
 } /* namespace power_plant */
 
-#endif /* SOLARPANEL_HPP_ */
+#endif /* CONFIGURATIONCONSTANTS_HPP_ */

@@ -17,50 +17,32 @@
  */
 
 
-#ifndef KAA_LOG_GEN_LOGGEN_HPP_293169158__H_
-#define KAA_LOG_GEN_LOGGEN_HPP_293169158__H_
+#ifndef KAA_LOG_GEN_LOGGEN_HPP_371313235__H_
+#define KAA_LOG_GEN_LOGGEN_HPP_371313235__H_
 
 
+#include <sstream>
 #include "boost/any.hpp"
 #include "avro/Specific.hh"
 #include "avro/Encoder.hh"
 #include "avro/Decoder.hh"
 
 namespace kaa_log {
-struct VoltageSample {
-    int32_t zoneId;
-    int32_t panelId;
-    double voltage;
-};
-
-struct VoltageReport {
-    int64_t timestamp;
-    std::vector<VoltageSample > samples;
+struct SuperRecord {
+    std::string logdata;
+    SuperRecord() :
+        logdata(std::string())
+        { }
 };
 
 }
 namespace avro {
-template<> struct codec_traits<kaa_log::VoltageSample> {
-    static void encode(Encoder& e, const kaa_log::VoltageSample& v) {
-        avro::encode(e, v.zoneId);
-        avro::encode(e, v.panelId);
-        avro::encode(e, v.voltage);
+template<> struct codec_traits<kaa_log::SuperRecord> {
+    static void encode(Encoder& e, const kaa_log::SuperRecord& v) {
+        avro::encode(e, v.logdata);
     }
-    static void decode(Decoder& d, kaa_log::VoltageSample& v) {
-        avro::decode(d, v.zoneId);
-        avro::decode(d, v.panelId);
-        avro::decode(d, v.voltage);
-    }
-};
-
-template<> struct codec_traits<kaa_log::VoltageReport> {
-    static void encode(Encoder& e, const kaa_log::VoltageReport& v) {
-        avro::encode(e, v.timestamp);
-        avro::encode(e, v.samples);
-    }
-    static void decode(Decoder& d, kaa_log::VoltageReport& v) {
-        avro::decode(d, v.timestamp);
-        avro::decode(d, v.samples);
+    static void decode(Decoder& d, kaa_log::SuperRecord& v) {
+        avro::decode(d, v.logdata);
     }
 };
 

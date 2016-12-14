@@ -40,55 +40,20 @@ KAA_C_LIB_HEADER_PATH="$KAA_LIB_PATH/src"
 KAA_CPP_LIB_HEADER_PATH="$KAA_LIB_PATH/kaa"
 KAA_SDK_TAR="kaa-c*.tar.gz"
 
- 
- 
-function build_thirdparty {
-    cd "$PROJECT_HOME" &&
-    mkdir -p "$PROJECT_HOME/$BUILD_DIR" &&
-    cd "$BUILD_DIR" &&
-    cmake  \
-        -DKAA_WITHOUT_EVENTS=1 \
-        -DKAA_WITHOUT_NOTIFICATIONS=1 \
-        -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
-        -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
-        -DKAA_MAX_LOG_LEVEL=6 \
-        "$KAA_TOOLCHAIN_PATH_SDK" \
-        ..
-    make $MAKE_THREADS
-}
-
-
-
-
-function build_app {
+function build {
     mkdir -p "$PROJECT_HOME/$BUILD_DIR" &&
     cd "$PROJECT_HOME/$BUILD_DIR" &&
     cmake -DAPP_NAME=$APP_NAME \
           -DPOWER_PLANT_STARTUP_WORKAROUND=1 \
           -DPOWER_PLANT_RANDOMIZER=0 \
           -DPOWER_PLANT_DEBUG_LOGGING=1 \
-           -DKAA_WITHOUT_EVENTS=1 \
-        -DKAA_WITHOUT_NOTIFICATIONS=1 \
-        -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
-        -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
-        -DKAA_MAX_LOG_LEVEL=6 \
+          -DKAA_WITHOUT_EVENTS=1 \
+          -DKAA_WITHOUT_NOTIFICATIONS=1 \
+          -DKAA_WITHOUT_OPERATION_LONG_POLL_CHANNEL=1 \
+          -DKAA_WITHOUT_OPERATION_HTTP_CHANNEL=1 \
+          -DKAA_MAX_LOG_LEVEL=0 \
           ..
     make -j2
-}
-
-function build {
-    mkdir -p "$PROJECT_HOME/build"
-    cd "$PROJECT_HOME/build"
-    cmake ..
-    make
-}
-
-# Need root privileges
-function install_app {
-    cd "$PROJECT_HOME/$BUILD_DIR" &&
-    make install &&
-    cp "$PROJECT_HOME/$STARTUP_SCRIPT" /etc/systemd/system &&
-    systemctl enable /etc/systemd/system/$STARTUP_SCRIPT
 }
 
 function clean {
@@ -96,20 +61,9 @@ function clean {
     rm -rf "$PROJECT_HOME/$BUILD_DIR"
 }
 
-function run_as_service {
-    systemctl restart powerplant.service
-}
-
 function run {
     cd "$PROJECT_HOME/$BUILD_DIR"
     ./$APP_NAME
-}
-
-function check_root {
-    if [ "$(id -u)" != "0" ]; then
-        echo "This command must be run as root!"
-        exit 1
-    fi
 }
 
 for cmd in $@
@@ -117,8 +71,7 @@ do
 
 case "$cmd" in
     build)
-        build_thirdparty &&
-        build_app
+        build
     ;;
 
     run)
@@ -126,11 +79,9 @@ case "$cmd" in
     ;;
 
     deploy)
-        #check_root
         clean
-        build_app
-        #install_app
-        #run_as_service
+        build
+        run
     ;;
 
     clean)
@@ -143,3 +94,6 @@ case "$cmd" in
 esac
 
 done
+
+
+
