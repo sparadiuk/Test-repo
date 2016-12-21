@@ -21,28 +21,33 @@
 #define KAA_CONFIGURATION_GEN_CONFIGURATIONGEN_HPP_371313235__H_
 
 
-#include <sstream>
 #include "boost/any.hpp"
 #include "avro/Specific.hh"
 #include "avro/Encoder.hh"
 #include "avro/Decoder.hh"
 
 namespace kaa_configuration {
-struct ConfigurationRootRecord {
-    std::string data;
-    ConfigurationRootRecord() :
-        data(std::string())
-        { }
+struct ReportConfiguration {
+    bool enableReporting;
+    int32_t panelCount;
+    int32_t samplingFrequency;
+    int32_t reportingFrequency;
 };
 
 }
 namespace avro {
-template<> struct codec_traits<kaa_configuration::ConfigurationRootRecord> {
-    static void encode(Encoder& e, const kaa_configuration::ConfigurationRootRecord& v) {
-        avro::encode(e, v.data);
+template<> struct codec_traits<kaa_configuration::ReportConfiguration> {
+    static void encode(Encoder& e, const kaa_configuration::ReportConfiguration& v) {
+        avro::encode(e, v.enableReporting);
+        avro::encode(e, v.panelCount);
+        avro::encode(e, v.samplingFrequency);
+        avro::encode(e, v.reportingFrequency);
     }
-    static void decode(Decoder& d, kaa_configuration::ConfigurationRootRecord& v) {
-        avro::decode(d, v.data);
+    static void decode(Decoder& d, kaa_configuration::ReportConfiguration& v) {
+        avro::decode(d, v.enableReporting);
+        avro::decode(d, v.panelCount);
+        avro::decode(d, v.samplingFrequency);
+        avro::decode(d, v.reportingFrequency);
     }
 };
 

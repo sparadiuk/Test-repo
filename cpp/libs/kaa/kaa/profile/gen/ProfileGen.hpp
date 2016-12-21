@@ -21,7 +21,6 @@
 #define KAA_PROFILE_GEN_PROFILEGEN_HPP_371313235__H_
 
 
-#include <sstream>
 #include "boost/any.hpp"
 #include "avro/Specific.hh"
 #include "avro/Encoder.hh"
@@ -29,8 +28,6 @@
 
 namespace kaa_profile {
 struct EmptyData {
-    EmptyData()
-        { }
 };
 
 }

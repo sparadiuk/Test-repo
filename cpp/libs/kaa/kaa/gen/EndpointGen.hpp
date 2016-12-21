@@ -21,7 +21,6 @@
 #define KAA_GEN_ENDPOINTGEN_HPP_371313235__H_
 
 
-#include <sstream>
 #include "boost/any.hpp"
 #include "avro/Specific.hh"
 #include "avro/Encoder.hh"
@@ -31,10 +30,6 @@ namespace kaa {
 struct TopicState {
     int64_t topicId;
     int32_t seqNumber;
-    TopicState() :
-        topicId(int64_t()),
-        seqNumber(int32_t())
-        { }
 };
 
 enum SyncResponseStatus {
@@ -85,21 +80,12 @@ enum UserAttachErrorCode {
 struct SubscriptionCommand {
     int64_t topicId;
     SubscriptionCommandType command;
-    SubscriptionCommand() :
-        topicId(int64_t()),
-        command(SubscriptionCommandType())
-        { }
 };
 
 struct UserAttachRequest {
     std::string userVerifierId;
     std::string userExternalId;
     std::string userAccessToken;
-    UserAttachRequest() :
-        userVerifierId(std::string()),
-        userExternalId(std::string()),
-        userAccessToken(std::string())
-        { }
 };
 
 struct _endpoint_avsc_Union__0__ {
@@ -144,36 +130,20 @@ struct UserAttachResponse {
     SyncResponseResultType result;
     errorCode_t errorCode;
     errorReason_t errorReason;
-    UserAttachResponse() :
-        result(SyncResponseResultType()),
-        errorCode(errorCode_t()),
-        errorReason(errorReason_t())
-        { }
 };
 
 struct UserAttachNotification {
     std::string userExternalId;
     std::string endpointAccessToken;
-    UserAttachNotification() :
-        userExternalId(std::string()),
-        endpointAccessToken(std::string())
-        { }
 };
 
 struct UserDetachNotification {
     std::string endpointAccessToken;
-    UserDetachNotification() :
-        endpointAccessToken(std::string())
-        { }
 };
 
 struct EndpointAttachRequest {
     int32_t requestId;
     std::string endpointAccessToken;
-    EndpointAttachRequest() :
-        requestId(int32_t()),
-        endpointAccessToken(std::string())
-        { }
 };
 
 struct _endpoint_avsc_Union__2__ {
@@ -199,29 +169,16 @@ struct EndpointAttachResponse {
     int32_t requestId;
     endpointKeyHash_t endpointKeyHash;
     SyncResponseResultType result;
-    EndpointAttachResponse() :
-        requestId(int32_t()),
-        endpointKeyHash(endpointKeyHash_t()),
-        result(SyncResponseResultType())
-        { }
 };
 
 struct EndpointDetachRequest {
     int32_t requestId;
     std::string endpointKeyHash;
-    EndpointDetachRequest() :
-        requestId(int32_t()),
-        endpointKeyHash(std::string())
-        { }
 };
 
 struct EndpointDetachResponse {
     int32_t requestId;
     SyncResponseResultType result;
-    EndpointDetachResponse() :
-        requestId(int32_t()),
-        result(SyncResponseResultType())
-        { }
 };
 
 struct _endpoint_avsc_Union__3__ {
@@ -268,22 +225,11 @@ struct Event {
     std::vector<uint8_t> eventData;
     source_t source;
     target_t target;
-    Event() :
-        seqNum(int32_t()),
-        eventClassFQN(std::string()),
-        eventData(std::vector<uint8_t>()),
-        source(source_t()),
-        target(target_t())
-        { }
 };
 
 struct EventListenersRequest {
     int32_t requestId;
     std::vector<std::string > eventClassFQNs;
-    EventListenersRequest() :
-        requestId(int32_t()),
-        eventClassFQNs(std::vector<std::string >())
-        { }
 };
 
 struct _endpoint_avsc_Union__5__ {
@@ -309,23 +255,13 @@ struct EventListenersResponse {
     int32_t requestId;
     listeners_t listeners;
     SyncResponseResultType result;
-    EventListenersResponse() :
-        requestId(int32_t()),
-        listeners(listeners_t()),
-        result(SyncResponseResultType())
-        { }
 };
 
 struct EventSequenceNumberRequest {
-    EventSequenceNumberRequest()
-        { }
 };
 
 struct EventSequenceNumberResponse {
     int32_t seqNum;
-    EventSequenceNumberResponse() :
-        seqNum(int32_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__6__ {
@@ -372,31 +308,16 @@ struct Notification {
     uid_t uid;
     seqNumber_t seqNumber;
     std::vector<uint8_t> body;
-    Notification() :
-        topicId(int64_t()),
-        type(NotificationType()),
-        uid(uid_t()),
-        seqNumber(seqNumber_t()),
-        body(std::vector<uint8_t>())
-        { }
 };
 
 struct Topic {
     int64_t id;
     std::string name;
     SubscriptionType subscriptionType;
-    Topic() :
-        id(int64_t()),
-        name(std::string()),
-        subscriptionType(SubscriptionType())
-        { }
 };
 
 struct LogEntry {
     std::vector<uint8_t> data;
-    LogEntry() :
-        data(std::vector<uint8_t>())
-        { }
 };
 
 struct _endpoint_avsc_Union__8__ {
@@ -461,12 +382,6 @@ struct SyncRequestMetaData {
     endpointPublicKeyHash_t endpointPublicKeyHash;
     profileHash_t profileHash;
     timeout_t timeout;
-    SyncRequestMetaData() :
-        sdkToken(std::string()),
-        endpointPublicKeyHash(endpointPublicKeyHash_t()),
-        profileHash(profileHash_t()),
-        timeout(timeout_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__11__ {
@@ -511,29 +426,16 @@ struct ProfileSyncRequest {
     endpointPublicKey_t endpointPublicKey;
     std::vector<uint8_t> profileBody;
     endpointAccessToken_t endpointAccessToken;
-    ProfileSyncRequest() :
-        endpointPublicKey(endpointPublicKey_t()),
-        profileBody(std::vector<uint8_t>()),
-        endpointAccessToken(endpointAccessToken_t())
-        { }
 };
 
 struct ProtocolVersionPair {
     int32_t id;
     int32_t version;
-    ProtocolVersionPair() :
-        id(int32_t()),
-        version(int32_t())
-        { }
 };
 
 struct BootstrapSyncRequest {
     int32_t requestId;
     std::vector<ProtocolVersionPair > supportedProtocols;
-    BootstrapSyncRequest() :
-        requestId(int32_t()),
-        supportedProtocols(std::vector<ProtocolVersionPair >())
-        { }
 };
 
 struct _endpoint_avsc_Union__13__ {
@@ -558,10 +460,6 @@ struct ConfigurationSyncRequest {
     typedef _endpoint_avsc_Union__13__ resyncOnly_t;
     std::vector<uint8_t> configurationHash;
     resyncOnly_t resyncOnly;
-    ConfigurationSyncRequest() :
-        configurationHash(std::vector<uint8_t>()),
-        resyncOnly(resyncOnly_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__14__ {
@@ -626,12 +524,6 @@ struct NotificationSyncRequest {
     topicStates_t topicStates;
     acceptedUnicastNotifications_t acceptedUnicastNotifications;
     subscriptionCommands_t subscriptionCommands;
-    NotificationSyncRequest() :
-        topicListHash(int32_t()),
-        topicStates(topicStates_t()),
-        acceptedUnicastNotifications(acceptedUnicastNotifications_t()),
-        subscriptionCommands(subscriptionCommands_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__17__ {
@@ -695,11 +587,6 @@ struct UserSyncRequest {
     userAttachRequest_t userAttachRequest;
     endpointAttachRequests_t endpointAttachRequests;
     endpointDetachRequests_t endpointDetachRequests;
-    UserSyncRequest() :
-        userAttachRequest(userAttachRequest_t()),
-        endpointAttachRequests(endpointAttachRequests_t()),
-        endpointDetachRequests(endpointDetachRequests_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__20__ {
@@ -763,11 +650,6 @@ struct EventSyncRequest {
     eventSequenceNumberRequest_t eventSequenceNumberRequest;
     eventListenersRequests_t eventListenersRequests;
     events_t events;
-    EventSyncRequest() :
-        eventSequenceNumberRequest(eventSequenceNumberRequest_t()),
-        eventListenersRequests(eventListenersRequests_t()),
-        events(events_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__23__ {
@@ -792,37 +674,21 @@ struct LogSyncRequest {
     typedef _endpoint_avsc_Union__23__ logEntries_t;
     int32_t requestId;
     logEntries_t logEntries;
-    LogSyncRequest() :
-        requestId(int32_t()),
-        logEntries(logEntries_t())
-        { }
 };
 
 struct ProtocolMetaData {
     int32_t accessPointId;
     ProtocolVersionPair protocolVersionInfo;
     std::vector<uint8_t> connectionInfo;
-    ProtocolMetaData() :
-        accessPointId(int32_t()),
-        protocolVersionInfo(ProtocolVersionPair()),
-        connectionInfo(std::vector<uint8_t>())
-        { }
 };
 
 struct BootstrapSyncResponse {
     int32_t requestId;
     std::vector<ProtocolMetaData > supportedProtocols;
-    BootstrapSyncResponse() :
-        requestId(int32_t()),
-        supportedProtocols(std::vector<ProtocolMetaData >())
-        { }
 };
 
 struct ProfileSyncResponse {
     SyncResponseStatus responseStatus;
-    ProfileSyncResponse() :
-        responseStatus(SyncResponseStatus())
-        { }
 };
 
 struct _endpoint_avsc_Union__24__ {
@@ -867,11 +733,6 @@ struct ConfigurationSyncResponse {
     SyncResponseStatus responseStatus;
     confSchemaBody_t confSchemaBody;
     confDeltaBody_t confDeltaBody;
-    ConfigurationSyncResponse() :
-        responseStatus(SyncResponseStatus()),
-        confSchemaBody(confSchemaBody_t()),
-        confDeltaBody(confDeltaBody_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__26__ {
@@ -916,11 +777,6 @@ struct NotificationSyncResponse {
     SyncResponseStatus responseStatus;
     notifications_t notifications;
     availableTopics_t availableTopics;
-    NotificationSyncResponse() :
-        responseStatus(SyncResponseStatus()),
-        notifications(notifications_t()),
-        availableTopics(availableTopics_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__28__ {
@@ -1024,13 +880,6 @@ struct UserSyncResponse {
     userDetachNotification_t userDetachNotification;
     endpointAttachResponses_t endpointAttachResponses;
     endpointDetachResponses_t endpointDetachResponses;
-    UserSyncResponse() :
-        userAttachResponse(userAttachResponse_t()),
-        userAttachNotification(userAttachNotification_t()),
-        userDetachNotification(userDetachNotification_t()),
-        endpointAttachResponses(endpointAttachResponses_t()),
-        endpointDetachResponses(endpointDetachResponses_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__33__ {
@@ -1094,11 +943,6 @@ struct EventSyncResponse {
     eventSequenceNumberResponse_t eventSequenceNumberResponse;
     eventListenersResponses_t eventListenersResponses;
     events_t events;
-    EventSyncResponse() :
-        eventSequenceNumberResponse(eventSequenceNumberResponse_t()),
-        eventListenersResponses(eventListenersResponses_t()),
-        events(events_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__36__ {
@@ -1124,11 +968,6 @@ struct LogDeliveryStatus {
     int32_t requestId;
     SyncResponseResultType result;
     errorCode_t errorCode;
-    LogDeliveryStatus() :
-        requestId(int32_t()),
-        result(SyncResponseResultType()),
-        errorCode(errorCode_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__37__ {
@@ -1152,25 +991,15 @@ public:
 struct LogSyncResponse {
     typedef _endpoint_avsc_Union__37__ deliveryStatuses_t;
     deliveryStatuses_t deliveryStatuses;
-    LogSyncResponse() :
-        deliveryStatuses(deliveryStatuses_t())
-        { }
 };
 
 struct RedirectSyncResponse {
     int32_t accessPointId;
-    RedirectSyncResponse() :
-        accessPointId(int32_t())
-        { }
 };
 
 struct ExtensionSync {
     int32_t extensionId;
     std::vector<uint8_t> payload;
-    ExtensionSync() :
-        extensionId(int32_t()),
-        payload(std::vector<uint8_t>())
-        { }
 };
 
 struct _endpoint_avsc_Union__38__ {
@@ -1355,18 +1184,6 @@ struct SyncRequest {
     eventSyncRequest_t eventSyncRequest;
     logSyncRequest_t logSyncRequest;
     extensionSyncRequests_t extensionSyncRequests;
-    SyncRequest() :
-        requestId(int32_t()),
-        syncRequestMetaData(syncRequestMetaData_t()),
-        bootstrapSyncRequest(bootstrapSyncRequest_t()),
-        profileSyncRequest(profileSyncRequest_t()),
-        configurationSyncRequest(configurationSyncRequest_t()),
-        notificationSyncRequest(notificationSyncRequest_t()),
-        userSyncRequest(userSyncRequest_t()),
-        eventSyncRequest(eventSyncRequest_t()),
-        logSyncRequest(logSyncRequest_t()),
-        extensionSyncRequests(extensionSyncRequests_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__47__ {
@@ -1552,28 +1369,11 @@ struct SyncResponse {
     redirectSyncResponse_t redirectSyncResponse;
     logSyncResponse_t logSyncResponse;
     extensionSyncResponses_t extensionSyncResponses;
-    SyncResponse() :
-        requestId(int32_t()),
-        status(SyncResponseResultType()),
-        bootstrapSyncResponse(bootstrapSyncResponse_t()),
-        profileSyncResponse(profileSyncResponse_t()),
-        configurationSyncResponse(configurationSyncResponse_t()),
-        notificationSyncResponse(notificationSyncResponse_t()),
-        userSyncResponse(userSyncResponse_t()),
-        eventSyncResponse(eventSyncResponse_t()),
-        redirectSyncResponse(redirectSyncResponse_t()),
-        logSyncResponse(logSyncResponse_t()),
-        extensionSyncResponses(extensionSyncResponses_t())
-        { }
 };
 
 struct TopicSubscriptionInfo {
     Topic topicInfo;
     int32_t seqNumber;
-    TopicSubscriptionInfo() :
-        topicInfo(Topic()),
-        seqNumber(int32_t())
-        { }
 };
 
 struct _endpoint_avsc_Union__56__ {
@@ -3209,155 +3009,64 @@ template<> struct codec_traits<kaa::TopicState> {
 
 template<> struct codec_traits<kaa::SyncResponseStatus> {
     static void encode(Encoder& e, kaa::SyncResponseStatus v) {
-		if (v < kaa::NO_DELTA || v > kaa::RESYNC)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::SyncResponseStatus and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::SyncResponseStatus& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::NO_DELTA || index > kaa::RESYNC)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::SyncResponseStatus and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::SyncResponseStatus>(index);
+        v = static_cast<kaa::SyncResponseStatus>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::NotificationType> {
     static void encode(Encoder& e, kaa::NotificationType v) {
-		if (v < kaa::SYSTEM || v > kaa::CUSTOM)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::NotificationType and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::NotificationType& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::SYSTEM || index > kaa::CUSTOM)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::NotificationType and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::NotificationType>(index);
+        v = static_cast<kaa::NotificationType>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::SubscriptionType> {
     static void encode(Encoder& e, kaa::SubscriptionType v) {
-		if (v < kaa::MANDATORY_SUBSCRIPTION || v > kaa::OPTIONAL_SUBSCRIPTION)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::SubscriptionType and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::SubscriptionType& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::MANDATORY_SUBSCRIPTION || index > kaa::OPTIONAL_SUBSCRIPTION)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::SubscriptionType and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::SubscriptionType>(index);
+        v = static_cast<kaa::SubscriptionType>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::SubscriptionCommandType> {
     static void encode(Encoder& e, kaa::SubscriptionCommandType v) {
-		if (v < kaa::ADD || v > kaa::REMOVE)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::SubscriptionCommandType and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::SubscriptionCommandType& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::ADD || index > kaa::REMOVE)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::SubscriptionCommandType and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::SubscriptionCommandType>(index);
+        v = static_cast<kaa::SubscriptionCommandType>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::SyncResponseResultType> {
     static void encode(Encoder& e, kaa::SyncResponseResultType v) {
-		if (v < kaa::SUCCESS || v > kaa::REDIRECT)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::SyncResponseResultType and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::SyncResponseResultType& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::SUCCESS || index > kaa::REDIRECT)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::SyncResponseResultType and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::SyncResponseResultType>(index);
+        v = static_cast<kaa::SyncResponseResultType>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::LogDeliveryErrorCode> {
     static void encode(Encoder& e, kaa::LogDeliveryErrorCode v) {
-		if (v < kaa::NO_APPENDERS_CONFIGURED || v > kaa::REMOTE_INTERNAL_ERROR)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::LogDeliveryErrorCode and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::LogDeliveryErrorCode& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::NO_APPENDERS_CONFIGURED || index > kaa::REMOTE_INTERNAL_ERROR)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::LogDeliveryErrorCode and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::LogDeliveryErrorCode>(index);
+        v = static_cast<kaa::LogDeliveryErrorCode>(d.decodeEnum());
     }
 };
 
 template<> struct codec_traits<kaa::UserAttachErrorCode> {
     static void encode(Encoder& e, kaa::UserAttachErrorCode v) {
-		if (v < kaa::NO_VERIFIER_CONFIGURED || v > kaa::OTHER)
-		{
-			std::ostringstream error;
-			error << "enum value " << v << " is out of bound for kaa::UserAttachErrorCode and cannot be encoded";
-			throw avro::Exception(error.str());
-		}
         e.encodeEnum(v);
     }
     static void decode(Decoder& d, kaa::UserAttachErrorCode& v) {
-		size_t index = d.decodeEnum();
-		if (index < kaa::NO_VERIFIER_CONFIGURED || index > kaa::OTHER)
-		{
-			std::ostringstream error;
-			error << "enum value " << index << " is out of bound for kaa::UserAttachErrorCode and cannot be decoded";
-			throw avro::Exception(error.str());
-		}
-        v = static_cast<kaa::UserAttachErrorCode>(index);
+        v = static_cast<kaa::UserAttachErrorCode>(d.decodeEnum());
     }
 };
 
